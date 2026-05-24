@@ -1,0 +1,24 @@
+# Build artifacts
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vspscc
+
+# Environment configurations containing secrets
+appsettings.Development.json
+appsettings.Production.json
+secrets.json
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
