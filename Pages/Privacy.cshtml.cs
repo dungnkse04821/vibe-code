@@ -1,7 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace VibeCode.Pages;
+namespace OMS.Pages;
 
 public class PrivacyModel : PageModel
 {

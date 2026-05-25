@@ -1,11 +1,11 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using VibeCode.Models;
-using VibeCode.Repositories;
+using OMS.Models;
+using OMS.Repositories;
 using System.Text.Json;
 
-namespace VibeCode.Pages.Orders
+namespace OMS.Pages.Orders
 {
     public class CreateModel : PageModel
     {

@@ -1,5 +1,5 @@
 @page
-@model VibeCode.Pages.Orders.CreateModel
+@model OMS.Pages.Orders.CreateModel
 @{
     ViewData["Title"] = "Tạo Đơn hàng mới";
 }
@@ -113,7 +113,7 @@
             <div class="form-group">
                 <label asp-for="Order.Status" class="form-label"></label>
                 <select asp-for="Order.Status" class="form-input">
-                    @foreach (var status in VibeCode.Models.OrderStatusList.All)
+                    @foreach (var status in OMS.Models.OrderStatusList.All)
                     {
                         <option value="@status">@status</option>
                     }

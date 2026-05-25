@@ -1,10 +1,10 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using VibeCode.Data;
-using VibeCode.Models;
+using OMS.Data;
+using OMS.Models;
 
-namespace VibeCode.Repositories
+namespace OMS.Repositories
 {
     public class OrderRepository : IOrderRepository
     {

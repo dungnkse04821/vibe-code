@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using VibeCode.Models;
-using VibeCode.Repositories;
+using OMS.Models;
+using OMS.Repositories;
 
-namespace VibeCode.Pages
+namespace OMS.Pages
 {
     public class IndexModel : PageModel
     {

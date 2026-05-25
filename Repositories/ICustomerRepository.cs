@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using VibeCode.Models;
+using OMS.Models;
 
-namespace VibeCode.Repositories
+namespace OMS.Repositories
 {
     public interface ICustomerRepository
     {

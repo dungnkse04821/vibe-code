@@ -1,7 +1,7 @@
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
-namespace VibeCode.Models
+namespace OMS.Models
 {
     public class Customer
     {

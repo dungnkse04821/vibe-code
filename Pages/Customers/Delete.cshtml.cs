@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using VibeCode.Models;
-using VibeCode.Repositories;
+using OMS.Models;
+using OMS.Repositories;
 
-namespace VibeCode.Pages.Customers
+namespace OMS.Pages.Customers
 {
     public class DeleteModel : PageModel
     {

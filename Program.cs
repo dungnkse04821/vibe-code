@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using VibeCode.Data;
-using VibeCode.Repositories;
+using OMS.Data;
+using OMS.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 

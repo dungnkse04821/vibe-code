@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using VibeCode.Models;
+using OMS.Models;
 
-namespace VibeCode.Data
+namespace OMS.Data
 {
     public class ApplicationDbContext : DbContext
     {
